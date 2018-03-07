@@ -2,16 +2,13 @@
 	"name": "brackets",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1d1f21",
-		"editor.foreground": "#fee8e8",
-		"activityBarBadge.background": "#282a2e",
-		"sideBarTitle.foreground": "#282a2e"
+		"editor.foreground": "#fee8e8"
 	},
 	"tokenColors": [
 		{
 			"settings": {
 				"foreground": "#eeffffff",
-				"background": "#282a2e"
+				"background": "#242424"
 			}
 		},
 		{
