@@ -1,0 +1,22 @@
+{
+    "name": "brackets",
+    "displayName": "brackets",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "acid-base",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "brackets",
+                "uiTheme": "vs-dark",
+                "path": "./themes/brackets-color-theme.json"
+            }
+        ]
+    }
+}
