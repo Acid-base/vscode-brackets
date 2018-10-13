@@ -234,7 +234,7 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				// "variable.other.class.js"
 			],
 			"settings": {
 				"foreground": "#c84b49"
@@ -732,7 +732,8 @@
 				"variable.parameter",
 				"text.html",
 				"meta.tag.inline.any",
-				"string.unquoted.tag-string.nunjucks"
+				"string.unquoted.tag-string.nunjucks",
+				"variable.other.class"
 			],
 			"settings": {
 				"foreground": "#fee8e8"
@@ -842,7 +843,7 @@
 				"entity.name.tag.css",
 				"support.type.object.console",
 				"support.type.object.dom",
-				"support.type.object.process"
+				"support.type.object.process",
 			],
 			"settings": {
 				"foreground": "#ebb207"
@@ -955,9 +956,11 @@
 		{
 			"scope": [
 				"constant.character.escape.backslash.regexp",
+				"constant.character.regexp",
+				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#7cb3f3"
+				"foreground": "#239faf"
 			}
 		},
 	]
